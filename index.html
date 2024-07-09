@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery</title>
+    <!--google fonts  -->
+
+    <!-- css files: fontawsome , bootstrap , my css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+
+
+    <!-- section-one -->
+    <div id="header" class="header">
+      <div class="nav-side">
+        <ul>
+            <li><a href="#" class="closebtn">×</a></li>
+            <li><a class="navside-link"  href="#header">Home</a></li>
+            <li><a class="navside-link"  href="#accor">Duration</a></li>
+            <li><a class="navside-link"  href="#counter">Details</a></li>
+            <li><a class="navside-link"  href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="header-content  w-100">
+        <h1 class="text-center">ُEgyption Party</h1>
+        <p class="text-center mt-2 mb-0">Let's have Fun</p>
+        <span class="nav-open ps-5 mt-0"><i class="fa-solid fa-bars"></i> open</span>
+      </div>
+    </div>
+    <!-- section-two (same as Accordion in bootstrap) -->
+    <div id="accor" class="accor my-5 py-5">
+      <h3 class="py-3 first">ٍSinger one</h3>
+      <div class="div-first myBrother">
+        <div class="inner p-3">
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+        </div>
+      </div>
+
+      <h3 class="py-3 second">ٍSinger two</h3>
+      <div class="div-second hid myBrother">
+        <div class="inner p-3">
+          <p>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            pariatur?"
+          </p>
+        </div>
+      </div>
+
+      <h3 class="py-3 third">ٍSinger three</h3>
+      <div class="div-third hid myBrother">
+        <div class="inner p-3">
+          <p>
+            "But I must explain to you how all this mistaken idea of denouncing
+            pleasure and praising pain was born and I will give you a complete
+            account of the system, and expound the actual teachings of the great
+            explorer of the truth, the master-builder of human happiness. No one
+            rejects, dislikes, or avoids pleasure itself, because it is
+            pleasure, but because those who do not know how to pursue pleasure
+            rationally encounter consequences that are extremely painful. Nor
+            again is there anyone who loves or pursues or desires to obtain pain
+            of itself, because it is pain, but because occasionally
+            circumstances occur in which toil and pain can procure him some
+            great pleasure. To take a trivial example, which of us ever
+            undertakes laborious physical exercise, except to obtain some
+            advantage from it? But who has any right to find fault with a man
+            who chooses to enjoy a pleasure that has no annoying consequences,
+            or one who avoids a pain that produces no resultant pleasure?"
+          </p>
+        </div>
+      </div>
+
+      <h3 class="py-3 fourth">ٍSinger four</h3>
+      <div class="div-fourth hid myBrother">
+        <div class="inner p-3">
+          <p>
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum deleniti atque corrupti quos
+            dolores et quas molestias excepturi sint occaecati cupiditate non
+            provident, similique sunt in culpa qui officia deserunt mollitia
+            animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
+            est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+            eligendi optio cumque nihil impedit quo minus id quod maxime placeat
+            facere possimus, omnis voluptas assumenda est, omnis dolor
+            repellendus. Temporibus autem quibusdam et aut officiis debitis aut
+            rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint
+            et molestiae non recusandae. Itaque earum rerum hic tenetur a
+            sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+            consequatur aut perferendis doloribus asperiores repellat."
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- section-three -->
+    <div id="counter" class="counter py-5">
+      <div class="container py-5 w-75 mx-auto ">
+        <div class="row text-center g-4">
+          <div class="col-md-3 ">
+           <div class="py-5 bord "> <span id="day"></span></div>
+           </div>
+          <div class="col-md-3 px-2">
+            <div class="py-5 bord  "> <span id="hour"></span></div>
+        </div>
+          <div class="col-md-3 px-2">
+            <div class="py-5 bord "> <span id="mint"></span></div>
+        </div>
+          <div class="col-md-3 px-2">
+            <div class="py-5 bord "> <span id="sec"></span></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- section-four  -->
+    <div  id="contact" class="contact my-5 py-5">
+      <div class="container w-75 m-auto my-5 ">
+        <div class="contact-title">
+          <h2>JOIN US</h2>
+          <p class="lead text-center">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 p-0">
+            <div class="info">
+              <div class="contact-prag ">
+                <h3>CONTACT INFO</h3>
+                <p class="mb-0 pb-0"><span class="ps-3">Why</span> you should hire me writeup Lorem ipsum dolor sit amet,consectetuer 
+                  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+                  <p class="mt-0 pt-0 text-center"> natoque nascetur ridiculus mus.</p>
+              </div>
+              <ul class="ms-5 my-5 data">
+                <li class="mt-4 ms-2 ps-2">
+                  <span class="me-3"
+                    ><i class="fa-solid fa-location-pin"></i
+                  ></span>
+                  <span> New Street 22545, Nexa Road, New York City, USA</span>
+                </li>
+                <li class="mt-4 ms-5 ps-5">
+                  <span class="ms-5 me-3"><i class="fa-solid fa-envelope"></i></span>
+                  <span class="text-danger"> hello@uigrid.com</span>
+                </li>
+                <li class="mt-4 ms-5 ps-5">
+                  <span class="ms-5 me-3"
+                    ><i class="fa-solid fa-phone-flip"></i
+                  ></span>
+                  <span>001-000-000-000</span>
+                </li>
+              </ul>
+              <div class="social my-5 ">
+                <ul class="d-flex">
+                  <li class="me-3"><i class="fa-brands fa-twitter"></i></li>
+                  <li class="me-3"><i class="fa-brands fa-facebook-f"></i></li>
+                  <li class="me-3"><i class="fa-brands fa-instagram"></i></li>
+                  <li class="me-3"><i class="fa-brands fa-dribbble"></i></li>
+                  <li class="me-3"><i class="fa-brands fa-pinterest"></i></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-6 ps-3">
+              <form>
+                <input
+                  class="mt-3 form-control"
+                  type="text"
+                  name="the-name"
+                  placeholder="Enter Name"
+                />
+                <input
+                  class="mt-3 form-control"
+                  type="email"
+                  name="the-name"
+                  placeholder="Enter Email"
+                />
+                <textarea
+                  class="mt-3 form-control"
+                  name="message"
+                  rows="5"
+                  placeholder="Enter Message"
+                ></textarea>
+                <p class="my-4" id="the-message"><span class="count"></span> Characyer Reamining</p>
+                <button class="py-2 bg-danger border-danger border-2 text-light form-control change-width" type="submit">SEND MESSAGE</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+
+
+    <!-- js files: jquery , bootstrap , my js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
