@@ -1,9 +1,10 @@
 /// <reference types="../@types/jquery" />
 
 // section-one
+// widdth % for media query
 $(".nav-open").on("click", function () {
-  $(".nav-side").animate({ width: "250px" }, 500);
-  $(".header-content").animate({ marginLeft: "250px" }, 500);
+  $(".nav-side").animate({ width: "20%" }, 500);
+  $(".header-content").animate({ marginLeft: "20%" }, 500);
 });
 
 $(".closebtn").on("click", function () {
@@ -45,7 +46,7 @@ $('.accor .fourth').on('click',function(){
 
 //  section-three
 function showTimeDiffrence() {
-  var past = new Date("10 october 2021 9:56:00").getTime();
+  var past = new Date("2023-10-25").getTime();
   var now = new Date().getTime();
   let timeInSec = (past - now) / 1000;
 

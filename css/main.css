@@ -17,7 +17,7 @@ a {
   text-decoration: none;
 }
 
-:root{
+:root {
   scroll-behavior: auto;
 }
 
@@ -37,7 +37,7 @@ a {
   background-position: center;
   position: relative;
   display: flex;
-  /* justify-content: center; */
+  /* justify- span: center; */
   align-items: center;
 }
 /* 250px */
@@ -52,7 +52,7 @@ a {
   /* transition: 1s; */
   padding-top: 30px;
 }
-.header-content {
+.header- span {
   margin-left: 0;
   /* transition: 1s; */
 }
@@ -134,7 +134,7 @@ a {
 }
 
 /* section-three */
-.counter{
+.counter {
   width: 100%;
   background-image: linear-gradient(
       rgba(214, 46, 51, 0.6),
@@ -146,84 +146,333 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
-.bord{
+.bord {
   border: solid #fff 1px;
 }
-.counter span{
+.counter span {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   font-weight: 500;
-  color: rgb(255, 255, 255);  
+  color: rgb(255, 255, 255);
 }
 
 /* section-four  */
-.social li{
-  padding: 10px;
-border: solid 1px rgb(128, 128, 128);
-color: rgb(128, 128, 128);
+.final{
+  width: 75%;
 }
-.social li:hover{
-background-color: rgb(255, 0, 0);
-color: #fff;
-border: solid 1px  rgb(255, 0, 0);
+.social li {
+  padding: 10px;
+  border: solid 1px rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
+}
+.social li:hover {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border: solid 1px rgb(255, 0, 0);
 }
 form .form-control {
-border-radius: 0;
+  border-radius: 0;
 }
-::placeholder{
-  color: rgba(128, 128, 128,0.8);
+::placeholder {
+  color: rgba(128, 128, 128, 0.8);
 }
-.change-width{
+.change-width {
   width: 150px;
 }
+
 /* fonts */
-.contact-title h2{
+.contact-title h2 {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 35px;
   font-weight: 700;
-  color:rgb(68, 68, 68);
+  color: rgb(68, 68, 68);
 }
-.contact-title p{
+.contact-title p {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: rgb(119, 119, 119);
 }
-.contact-prag h3{
+.contact-prag h3 {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: 900;
-  color: rgb(68, 68, 68);  
+  color: rgb(68, 68, 68);
 }
-.contact-prag p{
+.contact-prag p {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: rgb(119, 119, 119);
 }
-.data li span{
+.data li span {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: rgb(119, 119, 119);
 }
-form input , textarea , button{
+.form-control {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: rgb(73, 80, 87);
 }
 
-form #the-message{
+form #the-message {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: rgb(33, 37, 41);
 }
-form .count{
+form .count {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color:  rgb(214, 46, 51);
+  color: rgb(214, 46, 51);
 }
 
+@media (max-width: 576px) {
+  .header-content span {
+    padding-left: 2px;
+  }
+
+  .header-content h1 {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255) !important;
+  }
+  .header-content p {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    color: rgb(255, 255, 255) !important;
+  }
+  .header-content span {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .nav-side .closebtn {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+  }
+  .nav-side li a {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .header {
+    height: 250px;
+  }
+/* section-two   */
+  .accor h3 {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+  .accor p {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+/* sectio-three */
+  .counter span {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+/* section-4 */
+  .contact-title h2 {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(68, 68, 68);
+  }
+  .contact-title p {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+  }
+  .contact-prag h3 {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    color: rgb(68, 68, 68);
+  }
+  .contact-prag p {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+  }
+  .data li span {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+  }
+  .form-control {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6px;
+    font-weight: 400;
+    color: rgb(73, 80, 87);
+  }
+
+  form #the-message {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+  form .count {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    color: rgb(214, 46, 51);
+  }
+  .final{
+    width: 85%;
+  }
+  .social li {
+    padding: 3px;
+    border: solid 1px rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
+  }
+  .change-width {
+    width: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    height: 400px;
+  }
+  .header-content span {
+    padding-left: 2px;
+  }
+
+  .header-content h1 {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255) !important;
+  }
+  .header-content p {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(255, 255, 255) !important;
+  }
+  .header-content span {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .nav-side .closebtn {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+  }
+  .nav-side li a {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+  }
+
+ 
+/* section-two   */
+  .accor h3 {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+  .accor p {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+/* sectio-three */
+  .counter span {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+/* section-4 */
+  .contact-title h2 {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(68, 68, 68);
+  }
+  .contact-title p {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+  }
+  .contact-prag h3 {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(68, 68, 68);
+  }
+  .contact-prag p {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+  }
+  .data li span {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+  }
+  .form-control {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(73, 80, 87);
+  }
+
+  form #the-message {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+  form .count {
+    font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(214, 46, 51);
+  }
+  .final{
+    width: 85%;
+  }
+  .social li {
+    padding: 3px;
+    border: solid 1px rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
+  }
+  .change-width {
+    width: 100px;
+  }
+}
